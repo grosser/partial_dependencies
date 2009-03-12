@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+require 'rubygems'
+require 'partial_dependencies'
+
+RAILS_ROOT = ARGV[0] || '.'
+pd = PartialDependencies.new()
+pd.dot
